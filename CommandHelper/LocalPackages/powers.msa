@@ -559,7 +559,7 @@ powers:/powers = >>>
     }
     else if(@playerRank == "bartallen")
     {
-        tmsg(@playerName, "/ bartallen")
+        tmsg(@playerName, "/bartallen")
         tmsg(@playerName, "/jump 0-3")
         tmsg(@playerName, "/run 0-9")
         tmsg(@playerName, "/haste 0-4")
@@ -567,7 +567,15 @@ powers:/powers = >>>
     }
     else if(@playerRank == "barryallen")
     {
-        tmsg(@playerName, "/ barryallen")
+        tmsg(@playerName, "/barryallen")
+        tmsg(@playerName, "/jump 0-3")
+        tmsg(@playerName, "/run 0-9")
+        tmsg(@playerName, "/haste 0-4")
+        tmsg(@playerName, "/thru (phases through walls)")
+    }
+    else if(@playerRank == "rival")
+    {
+        tmsg(@playerName, "/rival")
         tmsg(@playerName, "/jump 0-3")
         tmsg(@playerName, "/run 0-9")
         tmsg(@playerName, "/haste 0-4")
